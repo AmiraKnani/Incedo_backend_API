@@ -1,0 +1,20 @@
+{
+  "name": "incedo_backend_challenge",
+  "version": "1.0.0",
+  "description": "Artist search API using Node.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "jest"
+  },
+  "author": "AmiraKnani",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "express": "^4.18.2",
+    "last-fm": "^5.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
